@@ -3,10 +3,8 @@ sql:
   - engine: "postgresql"
     queries: "query.sql"
     schema: "schema.sql"
-    database:
-      managed: true
     gen:
       go:
-        package: "tutorial"
-        out: "tutorial"
+        package: "sql"
+        out: "."
         sql_package: "pgx/v5"

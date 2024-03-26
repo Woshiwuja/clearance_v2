@@ -1,7 +1,0 @@
-@go.Package {name = "github.com/woshiwuja/clearance_v2/config"}
-module woshiwuja.config
-import "package://pkg.pkl-lang.org/pkl-go/pkl.golang@0.6.0#/go.pkl" 
-
-dbname: "postgres"
-dbhost: "local"
-port: ":5432"
